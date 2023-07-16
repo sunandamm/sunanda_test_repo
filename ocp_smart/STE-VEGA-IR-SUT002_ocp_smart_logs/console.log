@@ -1,0 +1,22 @@
+02/Jun/2023 11:01:00 - INFO - root - find_host - host_name at testbed is STE-VEGA-IR-SUT002
+02/Jun/2023 11:01:00 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - SMART-1   NVMeSmart_OCP_Physical_Media_Units_Written
+
+02/Jun/2023 11:01:00 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step1: Get the Physical Media Units Written cnt0 from Smart in Idle status
+02/Jun/2023 11:01:10 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - smart_wirte_cnt0  =   6291456
+02/Jun/2023 11:01:10 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step2: Quick get the Physical Media Units Written again cnt1 from Smart in No bgc status
+02/Jun/2023 11:01:10 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step3: Fua write 1 lba data
+02/Jun/2023 11:01:10 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Creating file with data size: 512
+02/Jun/2023 11:01:10 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Wait FW update the smart info: 60s
+02/Jun/2023 11:02:11 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step4: Get the Physical Media Units Written cnt2 and verify cnt2 bigger than cnt1
+02/Jun/2023 11:02:11 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - smart_wirte_cnt2  =   6291456
+02/Jun/2023 11:02:11 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - smart_wirte_cnt0 after write  =   6291968
+02/Jun/2023 11:02:11 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step5: Fua write 32 lba data
+02/Jun/2023 11:02:11 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Creating file with data size: 16384
+02/Jun/2023 11:02:11 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - wait FW update the smart info: 60s
+02/Jun/2023 11:03:12 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step6: Get the Physical Media Units Written cnt3 and verify cnt3 bigger than cnt2
+02/Jun/2023 11:03:12 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - smart_wirte_cnt3  =   6291456
+02/Jun/2023 11:03:12 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - smart_wirte_cnt2 after write  =   6307840
+02/Jun/2023 11:03:12 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step7: Normal write 6144k data
+02/Jun/2023 11:03:12 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Creating file with data size: 16384
+02/Jun/2023 11:03:12 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - wait FW update the smart info: 60s
+02/Jun/2023 11:04:12 - INFO - root - test_NVMeSmart_OCP_Physical_Media_Units_Written - Step8: Get the Physical Media Units Written cnt3 and verify cnt3 bigger than cnt2
