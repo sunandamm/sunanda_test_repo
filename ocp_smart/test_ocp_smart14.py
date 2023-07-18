@@ -143,6 +143,10 @@ def teardown_module():
 		
 	
 # SMART-15
+# SMART-16
+# SMART-17
+# SMART-17
+
 def test_NVMeSmart_OCP_Incomplete_Shutdowns(pi_info):
     case_name = "SMART-15  NVMeSmart_OCP_Incomplete_Shutdowns"
     logging.info(case_name+"\n")
